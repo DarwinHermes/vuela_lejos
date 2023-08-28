@@ -14,23 +14,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#" style="max-width: 10%;">
+            <a class="navbar-brand" href="#" style="max-width: 15%;">
                 <img src="IMG/logo.png" class="img-fluid">
-             </a>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <img src="IMG/menu.png" class="img-fluid">
+
+                </span>
             </button>
+
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item-active">
-                        <a class="nav-link" href="#" id="inicio" onclick="location.href='index.html'" >Inicio</a>
+                        <a class="nav-link" href="#" id="inicio" onclick="location.href='index.html'">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="destino" onclick="location.href='destino.html'" >Destino</a>
+                        <a class="nav-link" href="#" id="destino" onclick="location.href='destino.html'">Destino</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="hoteles" onclick="location.href='hoteles.html'">Hoteles</a>
@@ -39,15 +43,101 @@
                         <a class="nav-link" href="#" id="ayuda" onclick="location.href='ayuda.html'">Centro de Ayuda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="contacto" onclick="location.href='contacto.html'">Contacto</a>
+                        <a class="nav-link" href="#" id="contacto2" onclick="location.href='contacto.html'">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <section>
-
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                    <img src="IMG/home01.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="IMG/home02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="IMG/home03.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="IMG/home04.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </section>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Bienvenidos</h1>
+            <h4 class="lead">Vuela Lejos, donde tus aventuras comienzan con un clic.
+                Descubre destinos soñados y vive experiencias inolvidables con nosotros.
+                ¡Embarca en el viaje de tus sueños!.</h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <h5>Experiencias de Nuestros Clientes:</h5>
+        <div class="pt-1  d-inline-block"></div>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Luisa M.</h4>
+                    <img class="rounded-circle" src="IMG/perfil1.jpg" alt="Thumbnail image">
+                    <p class="clasificacion">
+                        <label for="radio1">★</label>
+                        <label for="radio2">★</label>
+                        <label for="radio3">★</label>
+                        <label for="radio4">★</label>
+                        <label for="radio5">★</label>
+                    </p>
+                    <p class="card-text">"Desde el momento de la reserva hasta el aterrizaje, la experiencia con Vuela
+                        Lejos ha sido impecable. ¡Definitivamente es mi aerolínea de elección para futuros viajes!"</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Raúl G.</h4>
+                    <img class="rounded-circle" src="IMG/perfil2.jpg" alt="Thumbnail image">
+                    <p class="clasificacion">
+                        <label for="radio1">★</label>
+                        <label for="radio2">★</label>
+                        <label for="radio3">★</label>
+                        <label for="radio4">★</label>
+                        <label for="radio5">★</label>
+                    </p>
+                    <p class="card-text">"Vuela Lejos me ha ofrecido un servicio de primera clase. Sus empleados son
+                        amables, y el vuelo fue el más cómodo que he tenido en años. ¡100% recomendado!"</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Isabel O.</h4>
+                    <img class="rounded-circle" src="IMG/perfil3.jpg" alt="Thumbnail image">
+                    <p class="clasificacion">
+                        <label for="radio1">★</label>
+                        <label for="radio2">★</label>
+                        <label for="radio3">★</label>
+                        <label for="radio4">★</label>
+                        <label for="radio5">★</label>
+                    </p>
+                    <p class="card-text">"Nunca había disfrutado tanto de volar. Gracias a Vuela Lejos, he
+                        redescubierto el placer de viajar. ¡Espero mi próximo viaje con ansias!"</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="pt-1  d-inline-block"></div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -60,5 +150,27 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Nuestro Sitio</h4>
+                <ul>
+                    <li><a href="#" onclick="location.href='index.html'">Inicio</a></li>
+                    <li><a href="#" onclick="location.href='destino.html'">Destino</a></li>
+                    <li><a href="#" onclick="location.href='hoteles.html'">Hoteles</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Obtener Ayuda</h4>
+                <ul>
+                    <li><a href="#" onclick="location.href='ayuda.html'">Ayuda</a></li>
+                    <li><a href="#" onclick="location.href='contacto.html'">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>

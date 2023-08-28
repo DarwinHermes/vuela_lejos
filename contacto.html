@@ -14,23 +14,25 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#" style="max-width: 10%;">
+            <a class="navbar-brand" href="#" style="max-width: 15%;">
                 <img src="IMG/logo.png" class="img-fluid">
-             </a>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <img src="IMG/menu.png" class="img-fluid">
+                </span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="inicio" onclick="location.href='index.html'" >Inicio</a>
+                        <a class="nav-link" href="#" id="inicio" onclick="location.href='index.html'">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="destino" onclick="location.href='destino.html'" >Destino</a>
+                        <a class="nav-link" href="#" id="destino" onclick="location.href='destino.html'">Destino</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="hoteles" onclick="location.href='hoteles.html'">Hoteles</a>
@@ -39,13 +41,57 @@
                         <a class="nav-link" href="#" id="ayuda" onclick="location.href='ayuda.html'">Centro de Ayuda</a>
                     </li>
                     <li class="nav-item-active">
-                        <a class="nav-link" href="#" id="contacto" onclick="location.href='contacto.html'">Contacto</a>
+                        <a class="nav-link" href="#" id="contacto2" onclick="location.href='contacto.html'">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+    <section class="intro-section">
+        <h1>Contacto</h1>
+        <h4>Para cualquier consulta o asistencia, estamos aquí para ayudarte. Ponte en contacto con Vuela Lejos y
+            nuestro
+            equipo te responderá a la brevedad. Tu satisfacción es nuestra prioridad.
+        </h4>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Experiencias de Nuestros Clientes:</h2>
+            <div class="pt-1  d-inline-block"></div>
+            <div class="card-deck">
+                <div id="contacto" class="card">
+                    <img id="imagen_contacto" class="card-img-top" src="/IMG/agente.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Call Center</h4>
+                        <p id="prf_contacto" class="card-text">
+                            ¿Necesitas ayuda? Llámanos directamente desde los botones de contacto. Estamos aquí para
+                            asistirte.
+                        </p>
+                        <a href="tel:996040090" class="btn btn-primary">Llamar al 996040090</a>
+                        <a href="tel:996040091" class="btn btn-primary">Llamar al 996040091</a>
+                    </div>
+                </div>
+                <div id="contacto" class="card">
+                    <img id="imagen_contacto" class="card-img-top" src="/IMG/email.png" alt="Card image cap">
+                    <div id="card_body1" class="card-body">
+                        <h4 class="card-title">Correo</h4>
+                        <p id="prf_contacto" class="card-text">
+                            ¿Dudas o consultas? Envíanos un correo directamente desde los botones de contacto. Te
+                            responderemos pronto.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="mailto:contacto@aerolinea.cl" class="btn btn-primary btn-lg">Escribenos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -58,5 +104,26 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Nuestro Sitio</h4>
+                <ul>
+                    <li><a href="#" onclick="location.href='index.html'">Inicio</a></li>
+                    <li><a href="#" onclick="location.href='destino.html'">Destino</a></li>
+                    <li><a href="#" onclick="location.href='hoteles.html'">Hoteles</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Obtener Ayuda</h4>
+                <ul>
+                    <li><a href="#" onclick="location.href='ayuda.html'">Ayuda</a></li>
+                    <li><a href="#" onclick="location.href='contacto.html'">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>
